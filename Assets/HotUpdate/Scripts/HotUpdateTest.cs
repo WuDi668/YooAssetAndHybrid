@@ -5,7 +5,6 @@ public class HotUpdateTest : MonoBehaviour
 
     void Start()
     {
-
-        Debug.Log("第二次热更后的代码");
+        Debug.Log("第三次热更后的代码");
     }
 }

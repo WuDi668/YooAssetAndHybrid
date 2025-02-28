@@ -18,7 +18,7 @@ public class HotOutputScreen : MonoBehaviour
 
     private void Awake()
     {
-        m_logFileSavePath = string.Format("{0}/output_{1}.log", Directory.GetParent(Application.dataPath));
+        m_logFileSavePath = string.Format("{0}/output.log", Directory.GetParent(Application.dataPath));
         Debug.Log(m_logFileSavePath);
     }
     private void OnEnable()

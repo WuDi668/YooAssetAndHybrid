@@ -38,6 +38,6 @@ public class Main : SingletonMono<Main>
     {
         Debug.Log("准备实例化");
         GameObject go = obj.InstantiateSync();
-        Debug.Log($"Prefab name is {go.name}");
+        Debug.Log($"预制体名称： {go.name}");
     }
 }

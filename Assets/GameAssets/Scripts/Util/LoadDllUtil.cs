@@ -84,7 +84,6 @@ public class LoadDllUtil : SingletonMono<LoadDllUtil>
             if (initOperation.Status == EOperationStatus.Succeed)
             {
                 Debug.Log("资源包初始化成功！");
-                StartCoroutine(RequestPackageVersion(package, onDownloadComplete));
             }
             else
             {

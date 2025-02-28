@@ -61,7 +61,8 @@
     <Analyzer Include="E:\UnityEditorOther\6000.0.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\Scripts\CheckAccessMissingMetadata.cs" />
+    <Compile Include="Assets\Editor\Pack\FileEditorUtil.cs" />
+    <Compile Include="Assets\Editor\Pack\BuildEditorUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: BuildinCatalog
   m_EditorClassIdentifier: 
   PackageName: DefaultPackage
-  PackageVersion: v2.3
+  PackageVersion: v2.4
   Wrappers:
   - BundleGUID: 16a1c147e677cfdd5e81abe3384d4e1e
     FileName: 16a1c147e677cfdd5e81abe3384d4e1e.bundle
+  - BundleGUID: 6b3a158f73ae66c0a9863df8eb8e4bea
+    FileName: 6b3a158f73ae66c0a9863df8eb8e4bea.bundle
   - BundleGUID: 9c24479241268aeb4042f8eee54a97b1
     FileName: 9c24479241268aeb4042f8eee54a97b1.bundle
-  - BundleGUID: ad1fbc7f34941e8c0acfd54ee86e37d9
-    FileName: ad1fbc7f34941e8c0acfd54ee86e37d9.bundle
-  - BundleGUID: d6be39032e6c6a71a1e6f9e2c865bd18
-    FileName: d6be39032e6c6a71a1e6f9e2c865bd18.bundle
+  - BundleGUID: d74edb3c2c0f1f0bd6698af5d8d64b09
+    FileName: d74edb3c2c0f1f0bd6698af5d8d64b09.bundle
