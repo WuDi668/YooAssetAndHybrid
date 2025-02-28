@@ -1,0 +1,147 @@
+{
+    "Summary": {
+        "YooVersion": "2.2.12",
+        "UnityVersion": "6000.0.39f1",
+        "BuildDate": "2025/2/27 14:46:44",
+        "BuildSeconds": 0,
+        "BuildTarget": 19,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "v1.0",
+        "BuildPackageNote": "2025/2/27 14:46:43",
+        "UniqueBundleName": false,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": false,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 7,
+        "MainAssetTotalCount": 5,
+        "AllBundleTotalCount": 4,
+        "AllBundleTotalSize": 1198602,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "HotTest",
+            "AssetPath": "Assets/GameAssets/Prefabs/Hot/HotTest.prefab",
+            "AssetGUID": "651c7166df98a9c4ebd087c6b0c3a67a",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameassets_prefabs_hot_hottest.bundle",
+            "MainBundleSize": 3898,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "HotUpdate.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/HotUpdate.dll.bytes",
+            "AssetGUID": "31bbefd883d13d8429cf71612c93a0d1",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameassets_scripts.bundle",
+            "MainBundleSize": 1156269,
+            "DependAssets": []
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/mscorlib.dll.bytes",
+            "AssetGUID": "d421b5f80a95cc34b936bb1b41e94dbd",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameassets_scripts.bundle",
+            "MainBundleSize": 1156269,
+            "DependAssets": []
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/System.Core.dll.bytes",
+            "AssetGUID": "e893b3cc494125a4b84cf38cd5c3345e",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameassets_scripts.bundle",
+            "MainBundleSize": 1156269,
+            "DependAssets": []
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/System.dll.bytes",
+            "AssetGUID": "810810f13e8b2054f93655fca9156668",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameassets_scripts.bundle",
+            "MainBundleSize": 1156269,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_gameassets_prefabs_hot_hottest.bundle",
+            "FileName": "ab6c8efa25b31f6288d63bbad98231a9.bundle",
+            "FileHash": "ab6c8efa25b31f6288d63bbad98231a9",
+            "FileCRC": "1826a031",
+            "FileSize": 3898,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GameAssets/Prefabs/Hot/HotTest.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_gameassets_scripts.bundle",
+            "FileName": "3ae6a6efe7f2840f49cc2e6ed23c04fb.bundle",
+            "FileHash": "3ae6a6efe7f2840f49cc2e6ed23c04fb",
+            "FileCRC": "709cfadc",
+            "FileSize": 1156269,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameAssets/Scripts/HotUpdate.dll.bytes",
+                "Assets/GameAssets/Scripts/mscorlib.dll.bytes",
+                "Assets/GameAssets/Scripts/System.Core.dll.bytes",
+                "Assets/GameAssets/Scripts/System.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "16a1c147e677cfdd5e81abe3384d4e1e.bundle",
+            "FileHash": "16a1c147e677cfdd5e81abe3384d4e1e",
+            "FileCRC": "f5ce7e96",
+            "FileSize": 3067,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "9c24479241268aeb4042f8eee54a97b1.bundle",
+            "FileHash": "9c24479241268aeb4042f8eee54a97b1",
+            "FileCRC": "f33a200f",
+            "FileSize": 35368,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

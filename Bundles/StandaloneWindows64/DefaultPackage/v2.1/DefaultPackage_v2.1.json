@@ -1,0 +1,96 @@
+{
+    "FileVersion": "2.2.5",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "v2.1",
+    "PackageNote": "2025/2/28 10:32:36",
+    "AssetList": [
+        {
+            "Address": "HotTest",
+            "AssetPath": "Assets/GameAssets/Prefabs/Hot/HotTest.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "HotUpdate.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/Dll/HotUpdate.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/Dll/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/Dll/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/GameAssets/Scripts/Dll/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gameassets_prefabs_hot_hottest.bundle",
+            "UnityCRC": 4270288307,
+            "FileHash": "6b3a158f73ae66c0a9863df8eb8e4bea",
+            "FileCRC": "eb155897",
+            "FileSize": 3902,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                2,
+                3
+            ]
+        },
+        {
+            "BundleName": "assets_gameassets_scripts_dll.bundle",
+            "UnityCRC": 4115336372,
+            "FileHash": "5f34bb456cf7912c3e770b32317b247f",
+            "FileCRC": "5b2dec33",
+            "FileSize": 1021947,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 628625546,
+            "FileHash": "16a1c147e677cfdd5e81abe3384d4e1e",
+            "FileCRC": "f5ce7e96",
+            "FileSize": 3067,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                3
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 1554641064,
+            "FileHash": "9c24479241268aeb4042f8eee54a97b1",
+            "FileCRC": "f33a200f",
+            "FileSize": 35368,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

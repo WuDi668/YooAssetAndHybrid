@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.39f1
+CRC: 1358795024
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e5e1a1bd98703b04d8f2103e577cebf7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5fa552502a16564c7df379f98d72f2da
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1279eda88a729e99e7d24acd4e5f76d3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5789887336f33e649ae566ad1bc9d73e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameAssets/Prefabs/Hot/HotTest.prefab
+Dependencies:
+- E:/UnityTestProject/YooAssetAndHybrid/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

@@ -1,0 +1,4 @@
+本地测试的服务器程序
+将YooAsset导出的资源放入html\Project\Test下
+如有端口冲突可在conf\nginx.conf文件中修改端口号
+测试前要启动nginx.exe 否则无法连接服务器下载失败

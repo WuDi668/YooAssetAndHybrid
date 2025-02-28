@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.39f1
+CRC: 435070078
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8a0084b787e67155cb3a8894dfbed97b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: b5606c96d42d7a23537d7a23085b5c58
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameAssets/Scripts/Dll/mscorlib.dll.bytes
+- Assets/GameAssets/Scripts/Dll/System.dll.bytes
+- Assets/GameAssets/Scripts/Dll/HotUpdate.dll.bytes
+- Assets/GameAssets/Scripts/Dll/System.Core.dll.bytes
+Dependencies: []

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.39f1
+CRC: 2531501550
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_gameassets_scripts_dll.bundle
+      Dependencies: {}
+    Info_1:
+      Name: assets_gameassets_prefabs_hot_hottest.bundle
+      Dependencies:
+        Dependency_0: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+    Info_2:
+      Name: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_3:
+      Name: unityshaders.bundle
+      Dependencies: {}
