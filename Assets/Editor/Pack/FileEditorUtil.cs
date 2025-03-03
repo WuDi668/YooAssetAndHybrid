@@ -3,9 +3,16 @@ using UnityEngine;
 using System.IO;
 using Codice.Client.BaseCommands;
 using UnityEditor;
+using YooAsset;
+using System;
 
 public static class FileEditorUtil
 {
+    /// <summary>
+    /// 文件操作类
+    /// </summary>
+
+    #region 热更Dll复制
     static List<string> aotList = new List<string>()
     {
            "mscorlib.dll",
@@ -24,12 +31,12 @@ public static class FileEditorUtil
         //复制aot文件
         foreach (var fileName in aotList)
         {
-            CopyFile(fileName, true);
+            CopyHotUpdateFile(fileName, true);
         }
         //复制热更文件
         foreach (var fileName in hotUpdateList)
         {
-            CopyFile(fileName, false);
+            CopyHotUpdateFile(fileName, false);
         }
     }
 
@@ -39,7 +46,7 @@ public static class FileEditorUtil
         //复制aot文件
         foreach (var fileName in aotList)
         {
-            CopyFile(fileName, true);
+            CopyHotUpdateFile(fileName, true);
         }
     }
 
@@ -49,11 +56,11 @@ public static class FileEditorUtil
         //复制热更文件
         foreach (var fileName in hotUpdateList)
         {
-            CopyFile(fileName, false);
+            CopyHotUpdateFile(fileName, false);
         }
     }
 
-    private static void CopyFile(string fileFullName, bool isAot)
+    private static void CopyHotUpdateFile(string fileFullName, bool isAot)
     {
         string sourceFilePath = GetCompileFilePath(fileFullName, isAot);
 
@@ -102,5 +109,40 @@ public static class FileEditorUtil
         string platformName = activePlatform.ToString();
         return platformName;
     }
+    #endregion
 
+    #region 文件操作
+    public static void FileClear(string path)
+    {
+        if (!Directory.Exists(path))
+        {
+            Debug.LogWarning("不存在的文件夹路径：" + path);
+            return;
+        }
+
+        try {
+            DirectoryInfo dir = new DirectoryInfo(path);
+            FileSystemInfo[] files = dir.GetFileSystemInfos();
+            foreach (FileSystemInfo item in files)
+            {
+                if(item is DirectoryInfo)
+                {
+                    DirectoryInfo subdir = new DirectoryInfo(item.FullName);
+                    subdir.Delete(true);
+                }
+                else
+                {
+                    File.Delete(item.FullName);
+                }
+            }
+            Debug.Log("已清空路径：" + path);
+        } 
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+
+
+    #endregion
 }
