@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: BuildinCatalog
   m_EditorClassIdentifier: 
   PackageName: DefaultPackage
-  PackageVersion: v2.4
+  PackageVersion: 1.1
   Wrappers:
-  - BundleGUID: 16a1c147e677cfdd5e81abe3384d4e1e
-    FileName: 16a1c147e677cfdd5e81abe3384d4e1e.bundle
   - BundleGUID: 6b3a158f73ae66c0a9863df8eb8e4bea
-    FileName: 6b3a158f73ae66c0a9863df8eb8e4bea.bundle
+    FileName: assets_gameassets_prefabs_hot_hottest.bundle
+  - BundleGUID: bbf82fbf3b82d43bb670444175b92503
+    FileName: assets_gameassets_scripts_dll.bundle
+  - BundleGUID: 16a1c147e677cfdd5e81abe3384d4e1e
+    FileName: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
   - BundleGUID: 9c24479241268aeb4042f8eee54a97b1
-    FileName: 9c24479241268aeb4042f8eee54a97b1.bundle
-  - BundleGUID: d74edb3c2c0f1f0bd6698af5d8d64b09
-    FileName: d74edb3c2c0f1f0bd6698af5d8d64b09.bundle
+    FileName: unityshaders.bundle

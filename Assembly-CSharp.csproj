@@ -61,13 +61,7 @@
     <Analyzer Include="E:\UnityEditorOther\6000.0.39f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameAssets\Scripts\Util\LoadDllUtil.cs" />
     <Compile Include="Assets\HybridCLRGenerate\AOTGenericReferences.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Base\Singleton.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Base\SingletonMono.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Util\HotOutputScreen.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Main\Main.cs" />
-    <Compile Include="Assets\GameAssets\Scripts\Base\RemoteServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HybridCLRGenerate\link.xml" />

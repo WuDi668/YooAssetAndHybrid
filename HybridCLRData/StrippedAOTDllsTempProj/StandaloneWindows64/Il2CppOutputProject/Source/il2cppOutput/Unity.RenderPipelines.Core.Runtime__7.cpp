@@ -25815,7 +25815,7 @@ IL_001e:
 		L_7 = String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline(L_6, NULL);
 		NullCheck(L_5);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker1< int32_t, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 >::Invoke(36, L_5, L_7);
+		L_8 = VirtualFuncInvoker1< int32_t, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 >::Invoke(37, L_5, L_7);
 		G_B6_0 = L_8;
 		G_B6_1 = G_B5_0;
 	}

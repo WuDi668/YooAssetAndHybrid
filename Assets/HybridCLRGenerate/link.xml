@@ -1,24 +1,110 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <linker>
+  <assembly fullname="HybridCLR.Runtime">
+    <type fullname="HybridCLR.HomologousImageMode" preserve="all" />
+    <type fullname="HybridCLR.LoadImageErrorCode" preserve="all" />
+    <type fullname="HybridCLR.RuntimeApi" preserve="all" />
+  </assembly>
   <assembly fullname="System">
     <type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
   </assembly>
+  <assembly fullname="System.Core">
+    <type fullname="System.Linq.Enumerable" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Application" preserve="all" />
+    <type fullname="UnityEngine.Application/LogCallback" preserve="all" />
+    <type fullname="UnityEngine.Coroutine" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.LogType" preserve="all" />
+    <type fullname="UnityEngine.Mathf" preserve="all" />
+    <type fullname="UnityEngine.Matrix4x4" preserve="all" />
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Quaternion" preserve="all" />
+    <type fullname="UnityEngine.Rect" preserve="all" />
+    <type fullname="UnityEngine.Screen" preserve="all" />
+    <type fullname="UnityEngine.SerializeField" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Vector3" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.IMGUIModule">
+    <type fullname="UnityEngine.GUI" preserve="all" />
+    <type fullname="UnityEngine.GUIStyle" preserve="all" />
+  </assembly>
+  <assembly fullname="YooAsset">
+    <type fullname="YooAsset.AssetHandle" preserve="all" />
+    <type fullname="YooAsset.AsyncOperationBase" preserve="all" />
+    <type fullname="YooAsset.DownloadErrorData" preserve="all" />
+    <type fullname="YooAsset.DownloadFileData" preserve="all" />
+    <type fullname="YooAsset.DownloadUpdateData" preserve="all" />
+    <type fullname="YooAsset.DownloaderFinishData" preserve="all" />
+    <type fullname="YooAsset.DownloaderOperation" preserve="all" />
+    <type fullname="YooAsset.DownloaderOperation/DownloadError" preserve="all" />
+    <type fullname="YooAsset.DownloaderOperation/DownloadFileBegin" preserve="all" />
+    <type fullname="YooAsset.DownloaderOperation/DownloadUpdate" preserve="all" />
+    <type fullname="YooAsset.DownloaderOperation/DownloaderFinish" preserve="all" />
+    <type fullname="YooAsset.EOperationStatus" preserve="all" />
+    <type fullname="YooAsset.EPlayMode" preserve="all" />
+    <type fullname="YooAsset.EditorSimulateModeHelper" preserve="all" />
+    <type fullname="YooAsset.EditorSimulateModeParameters" preserve="all" />
+    <type fullname="YooAsset.FileSystemParameters" preserve="all" />
+    <type fullname="YooAsset.HostPlayModeParameters" preserve="all" />
+    <type fullname="YooAsset.IDecryptionServices" preserve="all" />
+    <type fullname="YooAsset.ILogger" preserve="all" />
+    <type fullname="YooAsset.IRemoteServices" preserve="all" />
+    <type fullname="YooAsset.IWebDecryptionServices" preserve="all" />
+    <type fullname="YooAsset.InitializationOperation" preserve="all" />
+    <type fullname="YooAsset.InitializeParameters" preserve="all" />
+    <type fullname="YooAsset.OfflinePlayModeParameters" preserve="all" />
+    <type fullname="YooAsset.PackageInvokeBuildResult" preserve="all" />
+    <type fullname="YooAsset.RequestPackageVersionOperation" preserve="all" />
+    <type fullname="YooAsset.ResourceDownloaderOperation" preserve="all" />
+    <type fullname="YooAsset.ResourcePackage" preserve="all" />
+    <type fullname="YooAsset.UpdatePackageManifestOperation" preserve="all" />
+    <type fullname="YooAsset.WebPlayModeParameters" preserve="all" />
+    <type fullname="YooAsset.YooAssets" preserve="all" />
   </assembly>
   <assembly fullname="mscorlib">
+    <type fullname="System.Action" preserve="all" />
+    <type fullname="System.Action`1" preserve="all" />
+    <type fullname="System.Activator" preserve="all" />
     <type fullname="System.Array" preserve="all" />
+    <type fullname="System.Boolean" preserve="all" />
     <type fullname="System.Byte" preserve="all" />
+    <type fullname="System.Collections.Generic.Dictionary`2" preserve="all" />
+    <type fullname="System.Collections.Generic.IEnumerable`1" preserve="all" />
+    <type fullname="System.Collections.Generic.IEnumerator`1" preserve="all" />
+    <type fullname="System.Collections.Generic.List`1" preserve="all" />
+    <type fullname="System.Collections.Generic.List`1/Enumerator" preserve="all" />
+    <type fullname="System.Collections.IEnumerator" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggerHiddenAttribute" preserve="all" />
+    <type fullname="System.IDisposable" preserve="all" />
+    <type fullname="System.IO.Directory" preserve="all" />
+    <type fullname="System.IO.DirectoryInfo" preserve="all" />
+    <type fullname="System.IO.File" preserve="all" />
+    <type fullname="System.IO.FileStream" preserve="all" />
+    <type fullname="System.IO.Stream" preserve="all" />
+    <type fullname="System.IO.StreamWriter" preserve="all" />
+    <type fullname="System.IO.TextWriter" preserve="all" />
+    <type fullname="System.Int64" preserve="all" />
+    <type fullname="System.NotSupportedException" preserve="all" />
     <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Reflection.Assembly" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.IteratorStateMachineAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
     <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.RuntimeTypeHandle" preserve="all" />
+    <type fullname="System.String" preserve="all" />
+    <type fullname="System.StringSplitOptions" preserve="all" />
+    <type fullname="System.Type" preserve="all" />
     <type fullname="System.ValueType" preserve="all" />
   </assembly>
 </linker>

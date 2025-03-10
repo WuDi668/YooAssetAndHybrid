@@ -6,6 +6,7 @@ using YooAsset;
 using System;
 using UnityEngine.SceneManagement;
 using System.IO;
+using Unity.VisualScripting;
 
 public static class BuildEditorUtil
 {
@@ -201,7 +202,7 @@ public static class BuildEditorUtil
         }
     }
 
-    [MenuItem("Tools/Build/BuildPack", priority = 300)]
+    [MenuItem("Tools/Build/Build Pack", priority = 300)]
     public static void BuildPack()
     {
         #region 检测Jenkins传参
@@ -227,13 +228,14 @@ public static class BuildEditorUtil
         PlayerSettings.bundleVersion = _buildParm.bundleVersion;//版本号
         PlayerSettings.applicationIdentifier = _buildParm.applicationIdentifier;//包名
         PlayerSettings.muteOtherAudioSources = false;//允许后台播放音乐
-        PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);//设置编码模式
 
+#if UNITY_ANDROID
+        PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);//设置编码模式
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64 | AndroidArchitecture.ARMv7;//架构
         PlayerSettings.Android.bundleVersionCode = _buildParm.bundleVersionCode;
         PlayerSettings.Android.minSdkVersion = (AndroidSdkVersions)_buildParm.minSdkVersion;
         PlayerSettings.Android.targetSdkVersion = (AndroidSdkVersions)_buildParm.targetSdkVersion;
-#if UNITY_ANDROID
+
         //密钥视情况而定填写内容 如果没有可以不设置
         Debug.Log("[Unity]构建Android端");
         PlayerSettings.Android.keystoreName = Directory.GetParent(Directory.GetCurrentDirectory()) + @"\tools\keystore\key.keystore"; 
@@ -246,13 +248,17 @@ public static class BuildEditorUtil
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle; //设定成Gradle模式
         EditorUserBuildSettings.exportAsGoogleAndroidProject = true;//设置导出安卓工程
 
+        options.targetGroup = BuildTargetGroup.Android;
         options.target = BuildTarget.Android;
 #elif UNITY_IOS || UNITY_IPHONE
         Debug.Log("[Unity]构建IOS端");
+        options.targetGroup = BuildTargetGroup.iOS;
         options.target = BuildTarget.iOS;
 #else
         Debug.Log("[Unity]构建PC端");
+        options.targetGroup = BuildTargetGroup.Standalone;
         options.target = BuildTarget.StandaloneWindows64;
+        _buildParm.locationPathName = _buildParm.locationPathName + ".exe"; //PC端要记得生成exe，否则会找不到启动项
 #endif
         options.scenes = scenePaths;
         options.options = BuildOptions.None;

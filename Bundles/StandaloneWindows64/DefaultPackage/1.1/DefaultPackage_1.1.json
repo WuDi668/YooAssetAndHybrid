@@ -8,7 +8,7 @@
     "BuildPipeline": "BuiltinBuildPipeline",
     "PackageName": "DefaultPackage",
     "PackageVersion": "1.1",
-    "PackageNote": "2025/3/3 16:33:25",
+    "PackageNote": "2025/3/4 14:33:48",
     "AssetList": [
         {
             "Address": "HotTest",
@@ -62,10 +62,10 @@
         },
         {
             "BundleName": "assets_gameassets_scripts_dll.bundle",
-            "UnityCRC": 4066934303,
-            "FileHash": "eb58e8634b0c60692f3699e235657f28",
-            "FileCRC": "d1e15f45",
-            "FileSize": 1021921,
+            "UnityCRC": 175690897,
+            "FileHash": "bbf82fbf3b82d43bb670444175b92503",
+            "FileCRC": "628b8374",
+            "FileSize": 1158475,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []

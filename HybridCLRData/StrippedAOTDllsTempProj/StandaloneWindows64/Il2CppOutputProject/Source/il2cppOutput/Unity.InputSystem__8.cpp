@@ -32566,7 +32566,7 @@ IL_00fe:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_43 = ___0_stream;
 		NullCheck(L_43);
 		int64_t L_44;
-		L_44 = VirtualFuncInvoker0< int64_t >::Invoke(11, L_43);
+		L_44 = VirtualFuncInvoker0< int64_t >::Invoke(12, L_43);
 		V_2 = L_44;
 		DeviceInfoU5BU5D_t83A513EC4EB7BD3AA21A9352117520BC63C34E1A* L_45 = __this->___m_DeviceInfos;
 		int32_t L_46;
@@ -32655,7 +32655,7 @@ IL_0187:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_73 = ___0_stream;
 		NullCheck(L_73);
 		int64_t L_74;
-		L_74 = VirtualFuncInvoker0< int64_t >::Invoke(11, L_73);
+		L_74 = VirtualFuncInvoker0< int64_t >::Invoke(12, L_73);
 		int64_t L_75 = V_2;
 		V_4 = ((int64_t)il2cpp_codegen_subtract(L_74, L_75));
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_76 = V_0;

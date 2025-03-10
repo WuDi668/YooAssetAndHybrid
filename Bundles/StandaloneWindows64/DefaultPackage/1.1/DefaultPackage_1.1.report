@@ -2,14 +2,14 @@
     "Summary": {
         "YooVersion": "2.2.12",
         "UnityVersion": "6000.0.39f1",
-        "BuildDate": "2025/3/3 16:33:27",
-        "BuildSeconds": 2,
+        "BuildDate": "2025/3/4 14:33:56",
+        "BuildSeconds": 6,
         "BuildTarget": 19,
         "BuildPipeline": "BuiltinBuildPipeline",
         "BuildBundleType": 2,
         "BuildPackageName": "DefaultPackage",
         "BuildPackageVersion": "1.1",
-        "BuildPackageNote": "2025/3/3 16:33:25",
+        "BuildPackageNote": "2025/3/4 14:33:48",
         "UniqueBundleName": false,
         "EnableAddressable": true,
         "LocationToLower": false,
@@ -27,7 +27,7 @@
         "AssetFileTotalCount": 7,
         "MainAssetTotalCount": 5,
         "AllBundleTotalCount": 4,
-        "AllBundleTotalSize": 1064258,
+        "AllBundleTotalSize": 1200812,
         "EncryptedBundleTotalCount": 0,
         "EncryptedBundleTotalSize": 0
     },
@@ -50,7 +50,7 @@
             "AssetGUID": "31bbefd883d13d8429cf71612c93a0d1",
             "AssetTags": [],
             "MainBundleName": "assets_gameassets_scripts_dll.bundle",
-            "MainBundleSize": 1021921,
+            "MainBundleSize": 1158475,
             "DependAssets": []
         },
         {
@@ -59,7 +59,7 @@
             "AssetGUID": "d421b5f80a95cc34b936bb1b41e94dbd",
             "AssetTags": [],
             "MainBundleName": "assets_gameassets_scripts_dll.bundle",
-            "MainBundleSize": 1021921,
+            "MainBundleSize": 1158475,
             "DependAssets": []
         },
         {
@@ -68,7 +68,7 @@
             "AssetGUID": "e893b3cc494125a4b84cf38cd5c3345e",
             "AssetTags": [],
             "MainBundleName": "assets_gameassets_scripts_dll.bundle",
-            "MainBundleSize": 1021921,
+            "MainBundleSize": 1158475,
             "DependAssets": []
         },
         {
@@ -77,7 +77,7 @@
             "AssetGUID": "810810f13e8b2054f93655fca9156668",
             "AssetTags": [],
             "MainBundleName": "assets_gameassets_scripts_dll.bundle",
-            "MainBundleSize": 1021921,
+            "MainBundleSize": 1158475,
             "DependAssets": []
         }
     ],
@@ -101,9 +101,9 @@
         {
             "BundleName": "assets_gameassets_scripts_dll.bundle",
             "FileName": "assets_gameassets_scripts_dll.bundle",
-            "FileHash": "eb58e8634b0c60692f3699e235657f28",
-            "FileCRC": "d1e15f45",
-            "FileSize": 1021921,
+            "FileHash": "bbf82fbf3b82d43bb670444175b92503",
+            "FileCRC": "628b8374",
+            "FileSize": 1158475,
             "Encrypted": false,
             "Tags": [],
             "DependBundles": [],

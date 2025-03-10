@@ -384,6 +384,7 @@ struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct AncestorFilter_t3C37ECDED612087CEA7AF8DD77C612FE14DCA8D3;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct AtlasBase_t196C45243F41C19DC6258965057BBAA150D278BC;
 struct AttachToPanelEvent_t95C0BC3DD37F324A7816CB2574B56D976C932B28;
 struct BaseBoolField_t01F8AFD72D18F0EB65F949062615550A9ED30B0D;
@@ -437,6 +438,7 @@ struct Hierarchy_t6C500307C045A73F46DA5BBF9EF6F56DB365B04E;
 struct HierarchyEvent_tB23E4347BC47656A014CA104A5B1DDC172A2A705;
 struct HierarchyFlattened_t465DE25ECB06310A69E88D6BE1770EA7DBBF74BD;
 struct HierarchyViewModel_t818D495B7E4AFC2E498598998847F9779E0DA317;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct IBinding_t02FD99E9C9F2072B28E110F16C157666F5B2DBC7;
 struct ICollection_t37E7B9DC5B4EF41D190D607F92835BF1171C0E8E;
 struct ICollectionDragAndDropController_t30018C4F1C5ADA75B5E68B48A7BACE33E851168C;
@@ -1413,6 +1415,7 @@ struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D  : public RuntimeObje
 	int32_t ____version;
 	bool ____isWriterInProgress;
 	RuntimeObject* ____keys;
+	RuntimeObject* ____values;
 	RuntimeObject* ____keycomparer;
 	RuntimeObject* ____syncRoot;
 };
@@ -25150,7 +25153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DisposeHelper_NotifyDisposedUsed_m7A9C98
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(31, L_1);
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD81452C86BFC4304CE462191543453B5531C824C, L_2, _stringLiteralDF044C7EBE7E45C9572204BF0DEA5DFD05D06253, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -25656,7 +25659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultDragAndDropClient_GetGe
 		String_t* L_1 = ___0_key;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(16, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(26, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0012;
@@ -25673,7 +25676,7 @@ IL_0012:
 		String_t* L_4 = ___0_key;
 		NullCheck(L_3);
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(18, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(28, L_3, L_4);
 		G_B3_0 = L_5;
 	}
 
@@ -25746,7 +25749,7 @@ IL_0021:
 		L_6 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline((&___0_args), NULL);
 		NullCheck(L_6);
 		RuntimeObject* L_7;
-		L_7 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(20, L_6);
+		L_7 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(30, L_6);
 		V_3 = L_7;
 	}
 	{
@@ -25795,7 +25798,7 @@ IL_004c_1:
 				RuntimeObject* L_15;
 				L_15 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_4), NULL);
 				NullCheck(L_13);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(19, L_13, ((String_t*)CastclassSealed((RuntimeObject*)L_14, il2cpp_defaults.string_class)), L_15);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(29, L_13, ((String_t*)CastclassSealed((RuntimeObject*)L_14, il2cpp_defaults.string_class)), L_15);
 			}
 
 IL_007a_1:
@@ -26034,7 +26037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultDragAndDropClient_DragCleanup_mB9
 IL_001c:
 	{
 		NullCheck(G_B2_0);
-		VirtualActionInvoker0::Invoke(14, G_B2_0);
+		VirtualActionInvoker0::Invoke(23, G_B2_0);
 	}
 
 IL_0022:
@@ -27834,7 +27837,7 @@ IL_0017:
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5 = ___1_data;
 		NullCheck(L_3);
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(19, L_3, L_4, L_5);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(29, L_3, L_4, L_5);
 		return;
 	}
 }

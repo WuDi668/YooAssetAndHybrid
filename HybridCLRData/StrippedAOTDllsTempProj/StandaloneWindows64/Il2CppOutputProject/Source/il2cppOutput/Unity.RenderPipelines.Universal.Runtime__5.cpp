@@ -12478,7 +12478,7 @@ IL_0018:
 		Type_t* L_9 = V_1;
 		NullCheck(L_8);
 		bool L_10;
-		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(27, L_8, L_9);
 		if (L_10)
 		{
 			goto IL_0042;

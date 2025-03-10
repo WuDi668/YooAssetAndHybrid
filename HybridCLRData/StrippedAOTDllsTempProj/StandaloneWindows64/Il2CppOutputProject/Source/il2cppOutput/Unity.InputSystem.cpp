@@ -183,6 +183,7 @@ struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7;
 struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
 struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF;
@@ -196,6 +197,7 @@ struct FieldInfo_t;
 struct GearVRTrackedController_t3731B41FC1546864B2524CDBD3F0C1AAFC60274A;
 struct HandedViveTracker_tC5271F12BDA5976E7419EE56E13F42B9487BE39B;
 struct HololensHand_t3AF16AF7A1F5490B3C991E628D34CD3676B67BDE;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IInputActionCollection2_tA4D3640154DE282224A60A444F3623604182734A;
@@ -27467,7 +27469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParameterEnumerator__ctor_m4EF426FC2AE59
 		Type_t* L_9 = __this->___m_ObjectType;
 		NullCheck(L_8);
 		bool L_10;
-		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(27, L_8, L_9);
 		G_B3_0 = ((int32_t)(L_10));
 		G_B3_1 = G_B1_0;
 		goto IL_0055;
@@ -27501,7 +27503,7 @@ IL_0055:
 		Type_t* L_15 = __this->___m_ObjectType;
 		NullCheck(L_14);
 		bool L_16;
-		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(27, L_14, L_15);
 		G_B6_0 = ((int32_t)(L_16));
 		G_B6_1 = G_B4_0;
 		goto IL_0081;
@@ -27535,7 +27537,7 @@ IL_0081:
 		Type_t* L_21 = __this->___m_ObjectType;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_20, L_21);
+		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(27, L_20, L_21);
 		G_B9_0 = ((int32_t)(L_22));
 		G_B9_1 = G_B7_0;
 		goto IL_00ad;
@@ -27954,7 +27956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterEnumerator_FindParameter_mB2688
 		RuntimeObject* L_3 = ___0_instance;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(156, L_2, L_3);
 		if (L_4)
 		{
 			goto IL_001e;
@@ -27973,7 +27975,7 @@ IL_001e:
 		String_t* L_7 = __this->___m_ParameterName;
 		NullCheck(L_6);
 		FieldInfo_t* L_8;
-		L_8 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(82, L_6, L_7, ((int32_t)21));
+		L_8 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(112, L_6, L_7, ((int32_t)21));
 		V_0 = L_8;
 		FieldInfo_t* L_9 = V_0;
 		bool L_10;
@@ -29328,7 +29330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RebindingOperation_tF7D9BCBB6E69668FA3A5C2111
 		Type_t* L_4 = ___0_type;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(27, L_3, L_4);
 		if (L_5)
 		{
 			goto IL_0041;
@@ -30684,7 +30686,7 @@ IL_00e8_1:
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_40 = V_6;
 				NullCheck(L_39);
 				bool L_41;
-				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110, L_39, L_40);
+				L_41 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(156, L_39, L_40);
 				if (!L_41)
 				{
 					goto IL_02bf_1;
